@@ -5,9 +5,9 @@ namespace UriSolutions
     /// <summary>
     /// Extremamente Básico.
     /// </summary>
-    public static class Uri1001
+    public class Uri1001
     {
-        public static void Solution()
+        public void Solution()
         {
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
@@ -17,7 +17,7 @@ namespace UriSolutions
             Console.WriteLine($"X = {x}");
         }
 
-        public static int SolutionForTest(int a, int b)
+        public int SolutionForTest(int a, int b)
         {
             int x = a + b;
 

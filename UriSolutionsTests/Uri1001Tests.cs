@@ -6,26 +6,34 @@ namespace UriSolutionsTests
     [TestClass]
     public class Uri1001Tests
     {
-        [TestMethod]
-        public void Solution_Example_01()
+        private Uri1001 uri1001;
+
+        [TestInitialize]
+        public void Initialize()
         {
-            var retorno = Uri1001.SolutionForTest(10, 9);
+            uri1001 = new Uri1001();
+        }
+
+        [TestMethod]
+        public void Uri1001_Example_01()
+        {
+            var retorno = uri1001.SolutionForTest(10, 9);
 
             Assert.AreEqual(19, retorno);
         }
 
         [TestMethod]
-        public void Solution_Example_02()
+        public void Uri1001_Example_02()
         {
-            var retorno = Uri1001.SolutionForTest(-10, 4);
+            var retorno = uri1001.SolutionForTest(-10, 4);
 
             Assert.AreEqual(-6, retorno);
         }
 
         [TestMethod]
-        public void Solution_Example_03()
+        public void Uri1001_Example_03()
         {
-            var retorno = Uri1001.SolutionForTest(15, -7);
+            var retorno = uri1001.SolutionForTest(15, -7);
 
             Assert.AreEqual(8, retorno);
         }

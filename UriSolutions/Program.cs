@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Uri1004.Solution();
+            // Exemplo de como chamar a class.
+            new Uri1001().Solution();
         }
     }
 }
