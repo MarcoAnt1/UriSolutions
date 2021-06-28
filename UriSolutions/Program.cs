@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Uri1001.Solution();
+            Uri1002.Solution();
         }
     }
 }

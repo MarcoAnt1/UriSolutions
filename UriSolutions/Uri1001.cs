@@ -2,6 +2,9 @@
 
 namespace UriSolutions
 {
+    /// <summary>
+    /// Extremamente Básico.
+    /// </summary>
     public static class Uri1001
     {
         public static void Solution()
