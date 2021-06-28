@@ -17,7 +17,7 @@ namespace UriSolutionsTests
         [TestMethod]
         public void Uri1001_Example_01()
         {
-            var retorno = uri1001.SolutionForTest(10, 9);
+            var retorno = uri1001.SolutionForTests(10, 9);
 
             Assert.AreEqual(19, retorno);
         }
@@ -25,7 +25,7 @@ namespace UriSolutionsTests
         [TestMethod]
         public void Uri1001_Example_02()
         {
-            var retorno = uri1001.SolutionForTest(-10, 4);
+            var retorno = uri1001.SolutionForTests(-10, 4);
 
             Assert.AreEqual(-6, retorno);
         }
@@ -33,7 +33,7 @@ namespace UriSolutionsTests
         [TestMethod]
         public void Uri1001_Example_03()
         {
-            var retorno = uri1001.SolutionForTest(15, -7);
+            var retorno = uri1001.SolutionForTests(15, -7);
 
             Assert.AreEqual(8, retorno);
         }
