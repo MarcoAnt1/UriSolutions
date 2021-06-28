@@ -16,5 +16,12 @@ namespace UriSolutions
 
             Console.WriteLine($"X = {x}");
         }
+
+        public static int SolutionForTest(int a, int b)
+        {
+            int x = a + b;
+
+            return x;
+        }
     }
 }
