@@ -15,7 +15,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_01()
+        public void Uri1007_Example_01()
         {
             var retorno = uri1007.SolutionForTests(5, 6, 7, 8);
 
@@ -23,7 +23,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_02()
+        public void Uri1007_Example_02()
         {
             var retorno = uri1007.SolutionForTests(0, 0, 7, 8);
 
@@ -31,7 +31,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_03()
+        public void Uri1007_Example_03()
         {
             var retorno = uri1007.SolutionForTests(5, 6, -7, 8);
 

@@ -15,7 +15,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_01()
+        public void Uri1004_Example_01()
         {
             var retorno = uri1004.SolutionForTests(3, 9);
 
@@ -23,7 +23,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_02()
+        public void Uri1004_Example_02()
         {
             var retorno = uri1004.SolutionForTests(-30, 10);
 
@@ -31,7 +31,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_03()
+        public void Uri1004_Example_03()
         {
             var retorno = uri1004.SolutionForTests(0, 9);
 
