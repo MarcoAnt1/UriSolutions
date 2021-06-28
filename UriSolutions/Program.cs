@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Uri1002.Solution();
+            Uri1003.Solution();
         }
     }
 }
