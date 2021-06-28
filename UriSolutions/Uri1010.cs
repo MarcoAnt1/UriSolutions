@@ -3,7 +3,7 @@
 namespace UriSolutions
 {
     /// <summary>
-    /// Salário com Bônus.
+    /// Cálculo Simples.
     /// </summary>
     public class Uri1010
     {
