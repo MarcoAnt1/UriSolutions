@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace UriSolutions
+﻿namespace UriSolutions
 {
     class Program
     {
