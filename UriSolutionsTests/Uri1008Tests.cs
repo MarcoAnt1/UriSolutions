@@ -16,7 +16,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_01()
+        public void Uri1008_Example_01()
         {
             Dictionary<int, string> retorno = uri1008.SolutionForTests(25, 100, 5.50);
 
@@ -25,7 +25,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_02()
+        public void Uri1008_Example_02()
         {
             Dictionary<int, string> retorno = uri1008.SolutionForTests(1, 200, 20.50);
 
@@ -34,7 +34,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1003_Example_03()
+        public void Uri1008_Example_03()
         {
             Dictionary<int, string> retorno = uri1008.SolutionForTests(6, 145, 15.55);
 
