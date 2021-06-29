@@ -16,7 +16,7 @@ namespace UriSolutions
             double x1 = Convert.ToDouble(value1[0]);
             double y1 = Convert.ToDouble(value1[1]);
 
-            string[] value2 = texto1.Split(' ');
+            string[] value2 = texto2.Split(' ');
             double x2 = Convert.ToDouble(value2[0]);
             double y2 = Convert.ToDouble(value2[1]);
 

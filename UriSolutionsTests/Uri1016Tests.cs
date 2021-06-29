@@ -15,7 +15,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1014_Example_01()
+        public void Uri1016_Example_01()
         {
             int retorno = uri1016.SolutionForTests(30);
 
@@ -23,7 +23,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1014_Example_02()
+        public void Uri1016_Example_02()
         {
             int retorno = uri1016.SolutionForTests(110);
 
@@ -31,7 +31,7 @@ namespace UriSolutionsTests
         }
 
         [TestMethod]
-        public void Uri1014_Example_03()
+        public void Uri1016_Example_03()
         {
             int retorno = uri1016.SolutionForTests(7);
 
