@@ -7,10 +7,6 @@ namespace UriSolutions
     /// </summary>
     public class Uri1007
     {
-        private readonly int pesoA = 2;
-        private readonly int pesoB = 3;
-        private readonly int pesoC = 5;
-
         public void Solution()
         {
             int a = int.Parse(Console.ReadLine());

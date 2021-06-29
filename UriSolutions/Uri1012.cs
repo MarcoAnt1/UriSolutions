@@ -9,8 +9,6 @@ namespace UriSolutions
     /// </summary>
     public class Uri1012
     {
-        const double p = 3.14159;
-
         public void Solution()
         {
             var texto = Console.ReadLine();
@@ -21,7 +19,7 @@ namespace UriSolutions
             double C = Convert.ToDouble(arrayTexto[2]);
 
             double triangulo = (A * C) / 2;
-            double circulo = p * Math.Pow(C, 2);
+            double circulo = Constants.Pi * Math.Pow(C, 2);
             double trapezio = ((A + B) * C) / 2;
             double quadrado = Math.Pow(B, 2);
             double retangulo = A * B;
@@ -45,17 +43,19 @@ namespace UriSolutions
             double C = Convert.ToDouble(arrayTexto[2]);
 
             double triangulo = (A * C) / 2;
-            double circulo = p * Math.Pow(C, 2);
+            double circulo = Constants.Pi * Math.Pow(C, 2);
             double trapezio = ((A + B) * C) / 2;
             double quadrado = Math.Pow(B, 2);
             double retangulo = A * B;
 
-            var retorno = new List<string>();
-            retorno.Add($"{triangulo:0.000}");
-            retorno.Add($"{circulo:0.000}");
-            retorno.Add($"{trapezio:0.000}");
-            retorno.Add($"{quadrado:0.000}");
-            retorno.Add($"{retangulo:0.000}");
+            var retorno = new List<string>
+            {
+                $"{triangulo:0.000}",
+                $"{circulo:0.000}",
+                $"{trapezio:0.000}",
+                $"{quadrado:0.000}",
+                $"{retangulo:0.000}"
+            };
 
             return retorno;
         }
