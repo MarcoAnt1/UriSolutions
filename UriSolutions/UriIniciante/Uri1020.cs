@@ -5,7 +5,7 @@ using System.Text;
 namespace UriSolutions
 {
     /// <summary>
-    /// Conversão de Tempo.
+    /// Idade em dias.
     /// </summary>
     public class Uri1020
     {
