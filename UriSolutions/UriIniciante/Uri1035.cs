@@ -3,7 +3,7 @@
 namespace UriSolutions
 {
     /// <summary>
-    /// Notas e moedas.
+    /// Teste de Seleção 1.
     /// </summary>
     public class Uri1035
     {
