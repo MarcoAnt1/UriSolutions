@@ -16,9 +16,10 @@ namespace UriSolutions
             var b = Convert.ToDouble(Console.ReadLine());
 
             double media = (a * pesoA) + (b * pesoB);
-            media /= (pesoA + pesoB); ;
+            media /= (pesoA + pesoB);
 
-            Console.WriteLine($"MEDIA = {media:0.0000}");
+            Console.WriteLine($"MEDIA = {media:0.00000}");
+            Console.ReadLine();
         }
 
         public string SolutionForTests(double a, double b)

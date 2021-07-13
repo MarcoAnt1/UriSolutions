@@ -13,7 +13,7 @@ namespace UriSolutions
 
             double area = Constants.Pi * Math.Pow(raio, 2);
 
-            Console.WriteLine($"A= {area:0.0000}");
+            Console.WriteLine($"A={area:0.0000}");
         }
 
         public string SolutionForTests(double raio)

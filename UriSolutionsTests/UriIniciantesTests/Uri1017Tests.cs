@@ -1,4 +1,5 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Globalization;
 using UriSolutions;
 
 namespace UriSolutionsTests
@@ -12,6 +13,7 @@ namespace UriSolutionsTests
         public void Initialize()
         {
             uri1017 = new Uri1017();
+            CultureInfo.CurrentCulture = new CultureInfo("en-US");
         }
 
         [TestMethod]
