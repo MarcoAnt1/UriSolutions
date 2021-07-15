@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace UriSolutions
 {
@@ -24,14 +23,12 @@ namespace UriSolutions
             double quadrado = Math.Pow(B, 2);
             double retangulo = A * B;
 
-            var result = new StringBuilder();
-            result.AppendLine($"TRIANGULO: {triangulo:0.000}");
-            result.AppendLine($"CIRCULO: {circulo:0.000}");
-            result.AppendLine($"TRAPEZIO: {trapezio:0.000}");
-            result.AppendLine($"QUADRADO: {quadrado:0.000}");
-            result.AppendLine($"RETANGULO: {retangulo:0.000}");
+            Console.WriteLine($"TRIANGULO: {triangulo:0.000}");
+            Console.WriteLine($"CIRCULO: {circulo:0.000}");
+            Console.WriteLine($"TRAPEZIO: {trapezio:0.000}");
+            Console.WriteLine($"QUADRADO: {quadrado:0.000}");
+            Console.WriteLine($"RETANGULO: {retangulo:0.000}");
 
-            Console.WriteLine(result.ToString());
             Console.ReadLine();
         }
 

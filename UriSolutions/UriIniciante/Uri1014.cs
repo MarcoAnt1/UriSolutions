@@ -14,7 +14,7 @@ namespace UriSolutions
 
             double consumo = x / y;
 
-            Console.WriteLine($"{consumo:0.000} km/1");
+            Console.WriteLine($"{consumo:0.000} km/l");
             Console.ReadLine();
         }
 

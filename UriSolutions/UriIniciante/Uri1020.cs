@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace UriSolutions
 {
@@ -13,16 +12,13 @@ namespace UriSolutions
         {
             int dias = int.Parse(Console.ReadLine());
 
-            var idade = new StringBuilder();
-            idade.AppendLine($"{dias / 365} ano(s)");
+            Console.WriteLine($"{dias / 365} ano(s)");
             dias %= 365;
 
-            idade.AppendLine($"{dias / 30} mes(es)");
+            Console.WriteLine($"{dias / 30} mes(es)");
             dias %= 30;
 
-            idade.AppendLine($"{dias} dia(s)");
-
-            Console.WriteLine(idade.ToString());
+            Console.WriteLine($"{dias} dia(s)");
             Console.ReadLine();
         }
 
