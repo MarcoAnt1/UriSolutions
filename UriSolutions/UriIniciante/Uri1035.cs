@@ -20,7 +20,7 @@ namespace UriSolutions
             string retorno;
             if (b > c && d > a && (c + d) > (a + b) && (c > 0) && (d > 0) && (a % 2) == 0)
             {
-                retorno = "Valores aceitors";
+                retorno = "Valores aceitos";
             }
             else
             {

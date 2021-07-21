@@ -22,19 +22,16 @@ namespace UriSolutions
             double r1 = (-b + Math.Sqrt(delta)) / (2 * a);
             double r2 = (-b - Math.Sqrt(delta)) / (2 * a);
 
-            var result = new StringBuilder();
-
             if (delta < 0 || a == 0)
             {
-                result.AppendLine("Impossivel calcular");
+                Console.WriteLine("Impossivel calcular");
             }
             else
             {
-                result.AppendLine($"R1 = {r1:0.00000}");
-                result.AppendLine($"R2 = {r2:0.00000}");
+                Console.WriteLine($"R1 = {r1:0.00000}");
+                Console.WriteLine($"R2 = {r2:0.00000}");
             }
 
-            Console.WriteLine(result.ToString());
             Console.ReadLine();
         }
 
